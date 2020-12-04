@@ -1,49 +1,5 @@
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; }
-body { line-height:1; }
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
-ol, ul { list-style:none; }
-blockquote, q { quotes:none; }
-blockquote:before, blockquote:after, q:before, q:after { content:''; content:none; }
-a { margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; outline: none; text-decoration:none; }
-ins { background-color:#ff9; color:#000; text-decoration:none; }
-mark { background-color:#ff9; color:#000; font-style:italic; font-weight:bold; }
-del { text-decoration: line-through; }
-abbr[title], dfn[title] { border-bottom:1px dotted; cursor:help; }
-table { border-collapse:collapse; border-spacing:0; }
-input, select { vertical-align:middle; }
+/* imported goods */
 
-/* reusable classes */
-.inner { max-width: 1200px; margin: 0 auto; }
-.hidden, .none, .hide { display: none; }
-.invisible {visibility: hidden; }
-.flex { display: flex; }
-.f-column { flex-direction: column; }
-.f-wrap { flex-wrap: wrap; }
-.justify-center { justify-content: center; }
-.align-center { align-items: center; }
-
-/* micro clearfix below. contains floats like .clearfix. */
-.cf:before, .cf:after { content: " "; display: table; }
-.cf:after { clear: both; }
-
-/* need to clear floats instead of contain them? use this below. */
-.clear, .clear-both { clear: both; }
-
-/* need to add z-index?  Us these class? */
-
-.z0 {z-index: 0;}
-.z1 {z-index: 1;}
-.z2 {z-index: 2;}
-.z3 {z-index: 3;}
-.z4 {z-index: 4;}
-
-/* floats */
-.float20 { float: left; width: 20%;}
-.float25 { float: left; width: 25%;}
-.float33 { float: left; width: 33.3333%;}
-.float50 { float: left; width: 50%;}
-.float66 { float: left; width: 66.6667%;}
-.float75 { float: left; width: 75%;}
-.float80 { float: left; width: 80%;}
-
+@import "components/index";
+@import "pages/index";
 
